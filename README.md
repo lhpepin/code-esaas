@@ -42,11 +42,12 @@ This repository contains Dockerfile of code IDE running on Ubuntu for Docker's a
 
 Download automated build from public Docker Hub Registry:
 
-    docker pull tghastings/code-esaas
+    docker pull debmhteach/code-esaas
+
 
 # Step 3: Running
 
-    docker run -d -p 80:80 -p 3000:3000 tghastings/code-esaas
+    docker run -d -p 80:80 -p 3000:3000 debmhteach/code-esaas
 
 You can mount a directory as a volume with the argument \*-v /your-path/directory/:/root/ like this :
 
