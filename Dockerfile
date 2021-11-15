@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:21.10
 ARG DEBIAN_FRONTEND=noninteractive
 ENV SHELL /bin/bash
 ENV GIT_EDITOR=nano
